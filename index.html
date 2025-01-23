@@ -51,7 +51,9 @@
         }
 
         .header h1 {
-            color: #ff5e5e;
+            /*color: #ff5e5e;*/
+            color: #f39c12; /* Golden Yellow */
+
             font-size: 28px;
             margin: 0;
             animation: textGlow 2s infinite alternate;
@@ -202,8 +204,12 @@
             <p>Father</p>
         </div>
         <div class="family-member" onclick="playVideo('./src/mother.mp4')">
-            <img src="mother.jpg" alt="Mother">
+            <img src="mother...jpg" alt="Mother">
             <p>Mother</p>
+        </div>
+        <div class="family-member" onclick="playVideo('yogi.mp4')">
+            <img src="yogi.jpg" alt="Mother">
+            <p>Yoganshika</p>
         </div>
         <div class="family-member" onclick="playVideo('grandfather..mp4')">
             <img src="grandfather.jpg" alt="Grandfather">
@@ -226,11 +232,11 @@
             <p>Atha</p>
         </div>
         <div class="family-member" onclick="playVideo('bunny_babai.mp4')">
-            <img src="ath.jpg" alt="Grandmother">
+            <img src="bunny_babai.jpg" alt="Grandmother">
             <p>Bunny Babai</p>
         </div>
         <div class="family-member" onclick="playVideo('ramya_pinni.mp4')">
-            <img src=".jpg" alt="Grandmother">
+            <img src="ramya_pinni.jpg" alt="Grandmother">
             <p>Ramya Pinni</p>
         </div>
         <div class="family-member" onclick="playVideo('chintu_babai.mp4')">
@@ -249,6 +255,10 @@
             <img src="tejashanna.jpg" alt="Grandmother">
             <p>Tejash babai</p>
         </div>
+        <div class="family-member" onclick="playVideo('sai.mp4')">
+            <img src="sai.jpg" alt="Grandmother">
+            <p>Sai mamma</p>
+        </div>
         <div class="family-member" onclick="playVideo('bharath.mp4')">
             <img src="bharath.jpg" alt="Grandmother">
             <p>Bharath mamma</p>
@@ -256,6 +266,10 @@
         <div class="family-member" onclick="playVideo('devesh.mp4')">
             <img src="devesh.jpg" alt="Grandmother">
             <p>Devesh mamma</p>
+        </div>
+        <div class="family-member" onclick="playVideo('sneha_pinni.mp4')">
+            <img src="Sneha.jpg" alt="Grandmother">
+            <p>Sneha pinni </p>
         </div>
 
     </div>
@@ -283,4 +297,7 @@
         familyVideo.src = ""; // Clears the video source
         videoModal.classList.add('hidden');
     }
+
+
+
 </script>
